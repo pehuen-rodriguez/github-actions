@@ -38,5 +38,6 @@ jobs:
         username: ${{ secrets.SCP_USERNAME }}
         password: ${{ secrets.SCP_PASSWORD }}
         port: ${{ secrets.SCP_PORT }}
-        source: "build/favicon.ico"
+        source: "build"
         target: "~/test"
+        strip_components: 1
