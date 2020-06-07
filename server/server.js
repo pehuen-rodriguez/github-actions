@@ -20,4 +20,3 @@ app.use(pino)
 // eslint-disable-next-line
 server.listen(port, () => console.log(`Listening on port ${port}`))
 
-// Changes to my server wont affect my Front-CICD
