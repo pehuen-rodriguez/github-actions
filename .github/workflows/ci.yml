@@ -35,6 +35,7 @@ jobs:
       with:
         host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}
+        password: ${{ secrets.SCP_PASSWORD }}
         key: ${{ secrets.SCP_KEY }}
         port: ${{ secrets.SCP_PORT }}
         source: "build"
