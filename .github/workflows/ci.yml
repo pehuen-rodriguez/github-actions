@@ -38,5 +38,5 @@ jobs:
         username: ${{ secrets.SCP_USERNAME }}
         password: ${{ secrets.SCP_PASSWORD }}
         port: ${{ secrets.SCP_PORT }}
-        source: "build/*"
+        source: "build/*.*"
         target: "~/test"
