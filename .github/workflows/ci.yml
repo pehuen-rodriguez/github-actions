@@ -36,7 +36,7 @@ jobs:
         host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}
         key: ${{ secrets.SCP_KEY }}
-        source: "dist/*"
+        source: "build"
         target: "~/test"
 
     # - run: npm test
